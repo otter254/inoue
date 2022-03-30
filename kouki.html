@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Webクリエータ科 編集後記</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+<style>
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html{
+	font-size:16px;
+}
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+a{
+	color:#333;
+	transition:0.5s;
+}
+a:hover{
+	opacity:0.5;
+}
+header{
+	color:#FFF;
+	background-color:#999;
+	padding:1em 0;
+	margin-bottom:2em;
+}
+section{
+	margin-bottom:2em;
+}
+h1{
+	font-size:1.5rem;
+	text-align:center;
+}
+table{
+	width:50%;
+	margin:0 auto;
+	border:3px solid rgba(230,230,230,1.0);
+	border-collapse:collapse;
+}
+caption{
+	font-weight:bold;
+	margin-bottom:0.7em;
+}
+caption::before{
+	content:"■ "
+}
+caption::after{
+	content:" ■"
+}
+th{
+	padding:0.3em 0;
+	border:3px solid rgba(230,230,230,1.0);
+	background-color:rgba(230,230,230,1.0);
+}
+td{
+	padding:0.5em 0.7em 1em 0.7em;
+}
+footer{
+	padding:1em 0;
+	color:#FFF;
+	background-color:#999;
+
+}
+footer p{
+	text-align:center;
+}
+footer p:first-child{
+	margin-bottom:0.5em;
+}
+footer p:first-child small{
+	font-size:1rem;
+}
+@media (max-width: 959px) {
+	table{
+		width:70%;
+	}
+}
+@media (max-width: 600px) {
+	table{
+		width:100%;
+	}
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>Webクリエータ科<br>編集後記</h1>
+</header>
+<article>
+    <section>
+        <!-- ●に続けてデータを入力してください-->
+        <table>
+          <caption><a href="index.html">制作したサイト <i class="fas fa-external-link-alt"></i></a> に関するデータ</caption>
+          <tr>
+            <th>制作者</th>
+          </tr>
+          <tr>
+            <td>西川&nbsp;武志</td>
+          </tr>
+          <tr> 
+            <th>サイト名(タイトル)</th>
+          </tr>
+          <tr> 
+            <!--サイト名を入力してください-->
+            <td>井上知美：日本画</td>
+          </tr>
+            <!--サイトの目的を入力してください-->
+          <tr> 
+            <th>サイトの目的(クライアントのニーズ)</th>
+          </tr>
+          <tr> 
+            <!--サイトの目的を入力してください-->
+            <td><p>クライアントは日本画を制作している作家。ギャラリーとしてのホームページを望んでおり、作品をみてもらうことを第一の目的とした。<br>後に、購入検討や、展示のお誘いなどがあれば尚よし（フォームの作成）。</p></td>
+          </tr>
+          <tr> 
+            <th>サイトのキャッチコピー</th>
+          </tr>
+          <!--サイトのキャッチコピーを入力してください-->
+          <tr> 
+            <td>シンプルクール</td>
+          </tr>
+          <tr> 
+            <th>サイトのコンセプト（イメージ）</th>
+          <!--サイトのコンセプトを入力してください-->
+          </tr>
+          <tr> 
+            <td>「白を基調にした、シンプルでクールなHP」<br>クライアントの要望は、シンプルで見やすいHPであったため、余計な要素はなるべくそぎ落とし、作品以外の色は白、黒のみを使用し、opacityプロパティによって透明度を調節し、クールな印象を与えられるように構成した。<br>＜h1＞などのフォントは、ゴシック体ではあるが、細い線にし、ゴシック体の特徴である見出しとしての強さを残しつつ、スマートなイメージを想起させる字体を選択、調整した。</td>
+          </tr>
+          <tr> 
+            <th>ターゲット・ユーザー</th>
+          </tr>
+          <tr> 
+            <td>年齢層、性別、ユーザーの主な住居地域などの、ターゲット情報がどれも定まっていない（SNSからの閲覧が多いかもしれない）。その為、レスポンシブにしっかり対応する（PC・ipad・スマートフォン）。</td>
+          </tr>
+        </table>
+    </section>
+    <section>
+        <!--サイトの制作後記を入力するテーブル-->
+        <table>
+          <caption>制作後記</caption>
+          <tr> 
+            <th>工夫した点（特に見てもらいたい点）</th>
+          </tr>
+          <!--工夫した点（ユーザーにアピールしたい点、特に見てもらいたい点）-->
+          <tr> 
+            <td>pc・ipad・スマートフォン、いずれの画面でも見やすいよう、レスポンシブの調整をした。ギャラリーページでの、作品を正方形にし、整然と並べた構図が気に入っており、ユーザーには是非クリックして作品を見てほしい。</td>
+          </tr>
+          <tr> 
+            <th>苦労した点</th>
+          </tr>
+          <!--制作中、苦労・苦心した点-->
+          <tr> 
+              <td>topページのレスポンシブ対応のためのサイトレイアウトが難しかった。特に、nav部分を横にしたりドロップダウンメニューバーに変更するコード記述に時間がかかった。</td>
+          </tr>
+          <tr> 
+            <th>反省点</th>
+          </tr>
+          <!--今回のサイト制作での反省点、次回へ活かしたい点-->
+          <tr>
+            <td>恐らく重複して、効果が消えているコードが多くあると思う。データの容量を減らす意味でも、より整列したコードの記述ができるよう、今自分が記述しているコードの意味を理解しながら制作していきたい。</td>
+          </tr>
+          <tr> 
+            <th>まとめと感想</th>
+          </tr>
+          <!--まとめと感想-->
+          <tr> 
+            <td>クライアントからの細かい要望が多く、全部に対応しきれなかったのが残念ですが、自分では気に入ったサイトになったので良かったです。夢中になって作ることができました。</td>
+          </tr>
+        </table>
+    </section>
+</article>
+<footer>
+    <p><small>制作：西川&nbsp;武志</small></p>
+    <p><small>&copy;&nbsp;2020&nbsp;ICL&nbsp;Inc.</small></p>
+</footer>
+</body>
+</html>
