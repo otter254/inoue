@@ -11,15 +11,13 @@ ul#menu {
     right: 0%;
 	top: 15%;
 	z-index: 990;
-display: none;
+	display: none;
 }
 
 ul#menu li {
     text-align: center;
     width: 90%;
     opacity: 0.8;
-    padding-left: 6px;
-    padding-right: 6px;
     font-size:90%;
     z-index: 990;
 }
@@ -27,7 +25,6 @@ ul#menu li {
 ul#menu li a {
 	text-decoration: none;
 	display: block;
-	padding: 15px 0;
 }
 
 ul#menu li a:hover {
@@ -101,6 +98,7 @@ div.sp-open span:after {
     ul#menu li{
         margin-bottom: 0;
         margin-left: 0px;
+		box-sizing: border-box;
     }
     div#sp-icon{
         opacity: 1;

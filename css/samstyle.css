@@ -1,5 +1,6 @@
 body{
   font-family: 'Montserrat', sans-serif;
+  height: 100vh;
 }
 *{
   margin: 0;
@@ -42,6 +43,7 @@ list-style-type: none;
 
 .topimg{
     box-sizing: content-box;
+    height: 100vh;
 }
 .topimg img{
     height: 100vh;
@@ -127,7 +129,7 @@ span{
    *{
     margin: 0;
     padding: 0;
-}
+    }
     .nav_2 li{
         list-style-type: none;
         display: inline;
@@ -184,10 +186,10 @@ span{
     }
    
 
-#exh,#pro,#gar,#con{
-    box-sizing: content-box;
-    width:80%; 
-  }
+    #exh,#pro,#gar,#con{
+        box-sizing: content-box;
+        width:80%; 
+    }
   
     #pc_sma{
         display: none;
@@ -205,10 +207,10 @@ span{
 
 /*640px以下*/
 @media(max-width:640px){
-*{
-    margin: 0;
-    padding: 0;
-}
+    *{
+        margin: 0;
+        padding: 0;
+    }
    
     .nav{
         visibility: visible;
