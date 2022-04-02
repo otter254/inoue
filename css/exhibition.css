@@ -30,6 +30,7 @@ article section .time {
     width: 20%;
     margin-right: 5%;
     font-size: 1.3rem;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 article section .content {
     width: 75%;

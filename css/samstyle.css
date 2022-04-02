@@ -181,10 +181,11 @@ span{
         display: none;
     }
     #su_sma{
+        font-family: 'Noto Sans JP', sans-serif;
         float: right;
         margin-right: 5%;
         font-size: 120%;
-        
+        color: rgba(0, 0, 0, 0.5);
     }
 
 }
