@@ -119,19 +119,11 @@ article{
     }
     header h1{
         opacity: 0.6;
-    font-size: 100%;
+        font-size: 1.6rem;
         margin-left: 10%;
         padding: 1%;
         margin: 3%;
         padding-left: 8%;
-    }
-    nav li{
-        display: block;
-        font-size: 110%;
-        width: 80%;
-        height: 35px;
-         border: 1px solid rgba(0,0,0,0.3);
-        padding-left: 0;
     }
 
     

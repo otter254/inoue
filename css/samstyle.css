@@ -1,44 +1,39 @@
 body{
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
+  overflow: hidden;
 }
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 article{
     box-sizing: content-box;
     width: 25%;
     float: right;
-    margin-top: 13%;
+    margin-top: 8%;
     border-left: 1px solid rgba(0, 0, 0, 0.5);
     padding-top: 20px;
 }
 .nav{
-  display: list-item;
-  list-style-type: none;
-  color: rgba(0, 0, 0,1);
+    display: list-item;
+    list-style-type: none;
+    color: rgba(0, 0, 0,1);
     margin-top: 5%;
-
 }
 
 .nav li{ 
-font-size: 15px;
-font-weight:lighter;
-margin-bottom: 20%;
-padding-left: 10px;
-list-style-type: none;
-   
+    margin-bottom: 15px;
+    padding-left: 10px;
+    list-style-type: none;
 }
 
-
-.nav{
-  width: 20%;
-
-}
 .nav a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 5px 15px;
 }
 
 .topimg{
@@ -47,16 +42,16 @@ list-style-type: none;
 }
 .topimg img{
     height: 100vh;
+    object-fit: cover;
 }
-.nav li:hover{
+.nav li a {
+    transition-duration: 1s;
+}
+.nav li a:hover{
   background-color: rgba(0, 0, 0, 0.1);
+  transform:translateX(20px);
+  color: #fff;
 }
-
-.translateX {
-  transition-duration: 1s;
-}
-
-.translateX:hover { transform:translateX(20px); }
 
 .name{
   
@@ -78,37 +73,19 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
-.aikon{
+.icon{
     display:flex;
     width:5px;
     height: 50px;
   
 }
-.aikon img{
+.icon img{
     opacity: 0.8;
     width: 20px;
     margin-left: 20px;   
 }
-.aikon img:hover{
+.icon img:hover{
     opacity: 0.6;
-}
-
-
-#exh{
-    width: 105px; 
-    padding-left: 15px;
-}
-#pro{
-    width: 80px;
-    padding-left:14px ;
-}
-#gar{
-    width: 85px;
-    padding-left: 16px;
-}
-#con{
-    width: 95px;
-    padding-left: 16px;
 }
 
 
@@ -154,7 +131,7 @@ span{
     }
 
     article{
-        box-sizing: content-box
+        box-sizing: content-box;
         float: none;
         margin-top:0%;
         height: 50%;
@@ -173,7 +150,7 @@ span{
         opacity: 0.8;
         letter-spacing: 1px
     }
-    .aikon img{
+    .icon img{
         width: 30px;
       margin-left: 30px;
         margin-top: 30px;
@@ -217,20 +194,10 @@ span{
     }
 
         .nav li{
-            box-sizing: content-box;
-        display: block;
-        font-size: 110%;
-        padding-top:0;
-        width: 80%;
-        height: 35px;
-        border: 1px solid rgba(0,0,0,0.3);
-
+        box-sizing: content-box;
+        font-size: 2rem;
     }
     
-    #exh,#pro,#gar,#con{
-        width: 130px;
-        padding-left:18px;
-    }
     
     .nav a{
         margin: -8px;
@@ -253,13 +220,13 @@ span{
         margin-bottom: 10px;
          letter-spacing: 1px
     }
-    .aikon{
+    .icon{
         clear: both;
         margin-left: 70%;
         margin-top: 15%;
       
     }
-    .aikon img{
+    .icon img{
         width: 15px;
         margin-top: 2%;
         margin-left: 15px;
@@ -277,6 +244,12 @@ span{
     #su_sma{
         margin-right: 1%;
         font-size: 70%;
+    }
+
+    #exh,#pro,#gar,#con{
+        box-sizing: content-box;
+        width:100%;
+        border: none; 
     }
     
 }
