@@ -11,14 +11,16 @@ nav a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
 }
-nav li:hover{
-    background-color: rgba(0, 0, 0, 0.1);
-}
-.translateX {
-  transition-duration: 1s;
-}
+@media(min-width:1200px){
+    nav li:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .translateX {
+    transition-duration: 1s;
+    }
 
-.translateX:hover { transform:translateX(20px); }
+    .translateX:hover { transform:translateX(20px); }
+}
 
 header{
     border-bottom: 2px solid #000;
@@ -99,6 +101,14 @@ article{
     article{
         width: 80vw;
     }
+    *:focus {
+        outline: none;
+    }
+    a {
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+        cursor:pointer;
+        display: block;
+    }
 }
 
 
@@ -132,14 +142,17 @@ article{
         margin-left: 1px;
     }
     .translateX:hover { transform:translateX(0px); }
-    
+
+    section h2{
+        margin-bottom: 5%;
+        font-size: 1.5rem;
+    }
     article{
         width: 90%;
     }
     article h2{
         opacity: 0.6;
         font-weight: 200;
-        font-size: 110%
     }
     .img div {
         width: calc((100% - 20px)/3);
