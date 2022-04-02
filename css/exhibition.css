@@ -71,6 +71,12 @@ article section .content ul a:hover {
         width: 90vw;
         margin: 5vh auto;
     }
+    article h2 {
+        font-size: 1.3rem;
+        letter-spacing: .5rem;
+        font-weight: 400;
+        opacity: .8;
+    }
     article section {
         display: block;
         margin-top: 4vh;
@@ -80,7 +86,7 @@ article section .content ul a:hover {
         width: 100%;
     }
     article section .time {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     article section .content {
         margin-top: 2vh;
