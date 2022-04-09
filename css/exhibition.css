@@ -64,9 +64,6 @@ article section .content ul a {
 article section .content ul a:hover {
     opacity: .5;
 }
-.l-sm {
-    display: none;
-}
 @media(max-width:780px){
     article {
         width: 90vw;
@@ -95,7 +92,7 @@ article section .content ul a:hover {
     .l-lg {
         display: none;
     }
-    .l-sm {
+    .l-sm{
         display: block;
     }
 }

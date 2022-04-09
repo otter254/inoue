@@ -20,7 +20,6 @@ ul#menu {
 ul#menu li {
     opacity: 0.8;
     font-size:1.5rem;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -100,7 +99,7 @@ div.sp-open span:after {
 	transform: rotate( -45deg ) !important;
 }
 
-@media(max-width:640px){
+@media(max-width:800px){
     ul#menu li{
         margin-bottom: 5vh;
         margin-left: 0px;

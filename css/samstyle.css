@@ -8,6 +8,21 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+.l-lg {
+    display: block;
+}
+.l-sm {
+    display: none;
+}
+@media(max-width:640px){
+    .l-lg {
+        display: none;
+    }
+    .l-sm {
+        display: block;
+    }
+
+}
 article{
     box-sizing: content-box;
     width: 25%;
