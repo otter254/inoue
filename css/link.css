@@ -119,6 +119,19 @@ input[type=submit]:hover{
     font-size: 100%;
     margin-top: 5%
 }
+p.adress {
+    opacity: .8;
+    margin-top: 30px;
+}
+p.adress  a {
+    color: #000;
+    opacity: 0.6;
+    font-size: 1.2rem;
+    transition: .5s;
+}
+p.adress  a:hover {
+    opacity: 0.3;
+}
 
 
 /*プロフィール*/
